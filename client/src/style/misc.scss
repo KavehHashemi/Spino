@@ -1,0 +1,42 @@
+.login {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    width: 300px;
+    margin: 3rem auto;
+    border: 1px solid #2a2a2a;
+    border-radius: 1rem;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50svh;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50svh;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: crimson
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 3rem auto;
+}

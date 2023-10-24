@@ -1,0 +1,11 @@
+.new-converation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+
+    input {
+        width: 50vw;
+    }
+}

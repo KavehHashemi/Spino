@@ -1,0 +1,20 @@
+@use "navbar";
+@use 'newConversation';
+@use 'conversationsList';
+@use 'conversation';
+@use 'newMessage';
+@use 'singleMessage';
+@use 'misc';
+@use 'conversationCard';
+
+body {
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1rem;
+    min-height: 100dvh;
+}
