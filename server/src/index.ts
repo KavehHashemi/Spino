@@ -35,7 +35,8 @@ mongoose.set("strictQuery", true);
 
 //this is for when you have a local instance of mongodb (MonogoDB Compass)
 //then you won't neeed 'process.env.MONGOPASSWORD'
-//const uri = {"mongodb://127.0.0.1:27017/flashcards"};
+//use your own connection string here:
+//const uri = "mongodb://127.0.0.1:27017/flashcards";
 
 //if you're using cloud version of MongoDB (MongoDB Atlas)
 //use your own connection string here:
