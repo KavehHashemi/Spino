@@ -19,7 +19,7 @@ export const verifyToken = async (bearerToken: string) => {
       bearerToken,
       signingKey,
       {
-        audience: process.env.audience,
+        audience: "http://localhost:4000",
         issuer: `https://${process.env.ISSUER}`,
         algorithms: ["RS256"],
       },
